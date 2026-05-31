@@ -13,6 +13,7 @@ import Modal from "./components/sushantpokhrel/Modal";
 import Carousel from "./components/sushantpokhrel/Carousel";
 import Header from "./components/kelixirr/Header";
 import Login from "./components/rrusyaidii/Login";
+import DigitalTime from "./components/kedarComponent/DigitalTime";
 
 function App() {
   const [showToast, setShowToast] = useState(false);
@@ -33,6 +34,7 @@ function App() {
       <Carousel />
       <Header />
       <Login />
+      <DigitalTime />
 
       {/* Please Add Your Component Above This Line. Don't Add Div inside App, just component. Keep It Clean*/}
       <div
